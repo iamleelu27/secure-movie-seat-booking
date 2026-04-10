@@ -1,19 +1,19 @@
-# 🎬 Secure Movie Seat Booking System
-## 📌 Problem Statement
+Secure Movie Seat Booking System
+Problem Statement
 This project implements a secure multi-client movie seat booking system using socket programming with SSL/TLS encryption.
 ---
-## 🎯 Features
+Features
 * Multi-client support using threading
 * Secure communication using SSL/TLS
 * Seat booking, cancellation, and status check
 * File-based persistence
 * Concurrency control using locks
 ---
-## 🏗️ Architecture
+Architecture
 Client → SSL Socket → Server → Seat Manager → File Storage
 
 ---
-## 🔄 Protocol Design
+Protocol Design
 | Command        | Description    |
 | -------------- | -------------- |
 | BOOK S1 John   | Book seat      |
@@ -23,13 +23,13 @@ Client → SSL Socket → Server → Seat Manager → File Storage
 
 ---
 
-## 🔐 Security
+Security
 
 SSL/TLS is used to encrypt communication between client and server.
 
 ---
 
-## ⚙️ How to Run
+How to Run
 
 ```bash
 python server.py
@@ -38,7 +38,7 @@ python client.py
 
 ---
 
-## 📊 Performance
+Performance
 
 * Tested with multiple clients
 * Average response time ~100–150 ms
@@ -46,7 +46,7 @@ python client.py
 
 ---
 
-## 👥 Team
+Team
 
 * Server + Logic
 * Client + Security
