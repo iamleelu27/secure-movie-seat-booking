@@ -48,8 +48,8 @@ Performance
 
 Team
 
-* Server + Logic
-* Client + Security
-* Testing + Documentation
+* Server + Logic- https://github.com/pavithrabanvari
+* Client + Security- https://github.com/iamleelu27
+* Testing + Documentation- 
 
 ---
